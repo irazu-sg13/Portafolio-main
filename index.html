@@ -7,7 +7,7 @@
   <meta name="author" content="Janitzi Irazu Serrano Gonzaga">
   <meta name="description" content="Portafolio de técnicas fotográficas antiguas y experimentales de Irazu Serrano">
   <meta name="keywords" content="HTML, CSS, JavaScript, Diseño Gráfico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.75">
   <!-- Titulo -->
   <title>Irazu Serrano | Procesos Fotográficos Antiguos - Experimentales </title>
   <!-- Favicon -->
@@ -75,11 +75,12 @@
 
           
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
+            <a class="nav-link" href="#contactos">Contacto</a>
           </li>
+            <!--boton top
           <li class="nav-item">
             <a class="nav-link" href="#testimonios">Recomendaciones</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -282,7 +283,7 @@
   <!-- SERVICIOS -->
   <section id="servicios" class="experiencia seccion-clara">
     <div class="container text-center">
-      <h2 class="seccion-titulo">Cursos y Talleres </h2>
+      <h2 class="seccion-titulo">Cursos y Talleres</h2>
       <div class="row">
         <!-- Fotografía alternativa -->
         <div class="columna col-12 col-md-4" data-aos="zoom-in">
@@ -415,6 +416,7 @@
     </article>
   </section>
 
+
   <!-- CARRUSEL DE FOTOS -->
 
   <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" style="padding-top: 3em">
@@ -435,7 +437,7 @@
     <div class="carousel-inner">
 
         <!-- Marrón Van Dyke -->
-      <div class="carousel-item active">
+      <div class="carousel-item">
         <img src="imagenes/bg03.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Marrón Van Dyke">
         <div class="container">
           <div class="carousel-caption text-start">
@@ -446,7 +448,7 @@
         </div>
       </div>
         <!-- Fotograma cianotipia -->
-      <div class="carousel-item active">
+      <div class="carousel-item">
         <img src="imagenes/bg01.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Cianotipia">
         <div class="container">
           <div class="carousel-caption text-start">
@@ -456,7 +458,7 @@
         </div>
       </div>
         <!-- Antotipia -->
-      <div class="carousel-item active">
+      <div class="carousel-item">
         <img src="imagenes/bg05.jpg" class="d-block w-100 h-90 object-fit-cover" alt="Antotipia"
           style="height: 60vh; object-position: center">
         <div class="container">
@@ -467,7 +469,7 @@
         </div>
       </div>
          <!-- Estenopeica 35mm -->
-      <div class="carousel-item">
+      <div class="carousel-item active">
         <img src="imagenes/bg07.png" class="d-block w-100 h-80 object-fit-cover" alt="Estenopeica en Rollo de 35 mm"
           style="height: 90vh; object-position: center">
         <div class="container">
@@ -478,7 +480,7 @@
         </div>
       </div>
          <!-- Cianotipia vidrio inti -->
-      <div class="carousel-item">
+      <div class="carousel-item active">
         <img src="imagenes/bg06.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Cianotipia en vidrio"
           style="height: 90vh; object-position: center">
         <div class="container">
@@ -489,7 +491,7 @@
         </div>
       </div>
            <!-- Cianotipia papel inti -->
-      <div class="carousel-item">
+      <div class="carousel-item active">
         <img src="imagenes/bg08.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Cianotipia sobre papel fabriano"
           style="height: 80vh; object-position: center">
         <div class="container">
@@ -556,7 +558,7 @@
       </div>
 
         <!-- Goma bicromatada-->
-      <div class="carousel-item">
+      <div class="carousel-item active">
         <img src="imagenes/bg011.jpeg" class="d-block w-100 h-100 object-fit-cover"
           alt="Goma bicromatada" style="height: 100vh; object-position: center">
         <div class="container">
@@ -769,14 +771,13 @@
 
 
 
-
   <!-- Pie de pagina (footer) -->
   <footer>
     <img class="footer-logo" src="imagenes/code-heart.jpg.png" alt="Logo del portafolio">
     <p id="footer-texto" class="footer-texto text-center"> <span> Sólo la fotografía tiene el poder de dividir el tiempo
         en pequeños momentos de tan breve duración que no podemos percibirlos con los ojos.</span><br> - Eadweard
       Muybridge - </p>
-    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <div id="contactos" class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
       <a href="https://github.com/irazu-sg13" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-github"></i>
       </a>
